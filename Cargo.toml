@@ -1,0 +1,12 @@
+[project]
+name = "cql-ffi-example"
+version = "0.0.1"
+authors = ["Tupshin Harper <tupshin@tupshin.com>"]
+
+[[bin]]
+name = "cql_ffi_example"
+path = "cql_ffi_example.rs"
+
+[dependencies.cql_ffi]
+git = "https://github.com/tupshin/cql-ffi"
+
